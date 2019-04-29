@@ -1,8 +1,10 @@
+
 class Indexer {         //Balanced BST (roi rac hoa cac dinh)
 private :
     map<int,int> id;
     vector<int> num;
 
+    
 public :
     int getId(int x) {              //return new ID of vertex
         if (!id.count(x)) {
